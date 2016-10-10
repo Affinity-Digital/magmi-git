@@ -213,6 +213,7 @@ class CustomOptionsItemProcessor extends Magmi_ItemProcessor
                     break;
                 case 'field':
                 case 'area':
+                case 'hidden':
                     $opt['max_characters'] = $sort_order;
                 case 'date':
                 case 'date_time':
